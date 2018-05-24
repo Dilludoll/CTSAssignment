@@ -1,6 +1,7 @@
 package com.cts.java;
 
 public class Palindrome {
+	//this method should return true false.
 	public int isPalindrome(int n) {
 		int r;
 	
