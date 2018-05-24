@@ -4,6 +4,7 @@ import java.util.Iterator;
 
 public class LeftAngleTri {
 	public int triangle(int n) {
+		//what is n?  where you are using?
 		for(int i=1;i<=5;i++) {
 			for(int j=4;j>=i;j--) {
 				System.out.print(" ");
