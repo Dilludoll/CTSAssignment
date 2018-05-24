@@ -1,6 +1,7 @@
 package com.cts.java;
 
 public class LuckyNum {
+	//method name should not be isLucky.  isXXX should return true or false
 	public int isLucky(int n) {
 		int r;
 		int sum=0;
