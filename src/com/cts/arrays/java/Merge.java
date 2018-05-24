@@ -6,6 +6,7 @@ public class Merge {
 		int counter=0;
 		for(int i=0;i<a1.length;i++) {
 			merge[i]=a1[i];
+			//why count??
 			counter++;
 			
 		}
@@ -14,9 +15,11 @@ public class Merge {
 	
 	}
 	for(int i=0;i<merge.length;i++) {
+		//why SOP
 		System.out.println( +merge[i]);
 		
 	}
+		//why return counter?
 	return counter;
 	
 	
