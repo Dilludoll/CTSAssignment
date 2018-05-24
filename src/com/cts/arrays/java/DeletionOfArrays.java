@@ -1,9 +1,10 @@
 package com.cts.arrays.java;
-
+//wrong logic.
 public class DeletionOfArrays{
  
 	public int deletion(int[] arr,int n) {
 		int location= 0;
+		//why max is 4?
 		int max= 4;
 		for(int i=0;i<=max;i++) {
 			arr[i]=n;
