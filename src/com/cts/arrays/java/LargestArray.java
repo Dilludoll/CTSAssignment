@@ -2,6 +2,8 @@ package com.cts.arrays.java;
 
 public class LargestArray {
 	
+	//what this method is doig?
+	//what is total?
 		public  int getLargest(int[]a,int total){
 		int temp;
 		for(int i=0;i<total;i++){
