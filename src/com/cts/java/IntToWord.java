@@ -1,6 +1,8 @@
 package com.cts.java;
 
 public class IntToWord {
+	//method name not make sense.
+	//should be like convertToWord
 	public String character(int n) {
 		if(n==1) {
 			return "one";
