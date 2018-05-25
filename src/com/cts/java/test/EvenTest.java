@@ -5,7 +5,7 @@ import com.cts.java.Even;
 public class EvenTest {
 	public static void main(String []args) {
 		Even ev=new Even();
-		System.out.println(ev.num(48));
+		System.out.println(ev.isEven(37));
 		
 		
 	}
