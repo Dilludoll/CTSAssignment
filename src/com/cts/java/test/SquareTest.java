@@ -1,5 +1,11 @@
 package com.cts.java.test;
 
-public class SquareTest {
+import com.cts.java.Square;
 
+public class SquareTest {
+public static void main(String[] args) {
+Square sqr=new Square();
+sqr.displaySquare(5);
+
+}
 }

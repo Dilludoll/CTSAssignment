@@ -2,7 +2,7 @@ package com.cts.arrays.java;
 
 public class BinarySearch {
 	//this method should return true or false.
-	public  static int  binarySearch(int arr[],int frst,int last,int key) {
+	public boolean  binarySearch(int arr[],int frst,int last,int key) {
 		
 		
 		
@@ -13,8 +13,9 @@ public class BinarySearch {
 			 }
 			 else if(arr[mid]==key) {
 				 //NO SOP statements.
-				 System.out.println( +mid);
-				 break;
+				// System.out.println( +mid);
+				 return true;
+				
 			 }
 			 else {
 				 last=mid-1;
@@ -25,7 +26,7 @@ public class BinarySearch {
 		if(frst>last) {
 			System.out.println("not found");;
 		}
-		return -1;
+		return false;
 		
 		
 	}

@@ -8,9 +8,10 @@ public class LargestArrayTest {
 	
 	public static void main(String[] args){
 		LargestArray la=new LargestArray();
-		int a[]={45,55,66,77};
-		System.out.println("largest is:" +la.getLargest(a, 4));
-	//	System.out.println("largest: "+getLargest(a,4));
+		int[] a={45,55,786,7787};
+		System.out.println(la.getLargest(a));
+		System.out.println(la.getLargestByIndex(a));
+		
 		}
 
 	

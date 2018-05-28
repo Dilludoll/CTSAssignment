@@ -14,18 +14,18 @@ public class SumOfDigitsToChar {
 		//String str2[]= {"eleven","twelve","thirteen","fouteen","","","","","",""};
 		//String str2[]= {"eleven","twelve","thirteen","fouteen","","","","","",""};
 		String str4[]= {"ninetyone","nintytwo","nintythree","nintyfour","nintyfive","nintysix","nintyseven","nintyeight","nintynine","hundred"};
-	if(i<=10) {
+	if(i>1 && i<=10) {
 		return "str1";
 
 		}
-	if(i<=20) {
+	if(i>11 && i<=20) {
 		return "str2";
 	}
-	if(i<=30) {
+	if(i>21 && i<=30) {
 		return "str3";
 
 		}
-	if(i<=100) {
+	if(i>90 && i<=100) {
 		return "str4";
 
 		}

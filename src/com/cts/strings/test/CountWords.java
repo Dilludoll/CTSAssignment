@@ -7,7 +7,7 @@ public class CountWords {
 		 x=sc.nextLine();
 		// int len=x.length();
 		String[] strArray= x.trim().split(" ");
-		System.out.println(+strArray);
+		System.out.println(strArray);
 		return 0;
 		
 	}

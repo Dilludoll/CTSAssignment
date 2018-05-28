@@ -2,7 +2,7 @@ package com.cts.java;
 
 public class Palindrome {
 	//this method should return true false.
-	public int isPalindrome(int n) {
+	public boolean isPalindrome(int n) {
 		int r;
 	
 		int sum=0;
@@ -15,10 +15,10 @@ public class Palindrome {
 		
 if(temp==sum) {
 
-	return temp;
+	return true;
 }
 else {
-	return 0;
+	return false;
 }
 	}
 }
