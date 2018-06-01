@@ -11,20 +11,22 @@ public class LeftAngleTri {
 			}
 				
 				for(int k=1;k<=i;k++) {
-				System.out.print(+k);
+				System.out.print(k);
 					
 				}
+				
 				System.out.println();
 				
-				
-		}
 		
-		return n;
+		
+		
 		
 		
 	
 	
 
 }
+		return 0;
+	}
 }
 

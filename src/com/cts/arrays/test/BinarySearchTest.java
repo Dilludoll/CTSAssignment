@@ -16,7 +16,7 @@ public class BinarySearchTest {
 			
 		}
 		else {
-			System.out.println("found"+res);
+			System.out.println("found at index:"+res);
 		}
 				}
 

@@ -5,7 +5,7 @@ import com.cts.java.LeftAngleTri;
 public class LeftAngletriTest {
 public static void main(String[] args) {
 	LeftAngleTri tri=new LeftAngleTri();
-	System.out.println(tri.triangle(5));
+	System.out.println(tri.triangle(4));
 	
 }
 }

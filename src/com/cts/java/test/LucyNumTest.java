@@ -6,6 +6,6 @@ public class LucyNumTest {
 public static void main(String[] args) {
 	LuckyNum lky=new LuckyNum();
 	
-	System.out.println(lky.getLuckyNum(455));
+	System.out.println(lky.getLuckyNum(169));
 }
 }
